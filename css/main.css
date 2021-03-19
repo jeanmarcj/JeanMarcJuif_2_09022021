@@ -373,7 +373,7 @@ textarea {
     #filters-footer {
       display: flex;
       margin-top: 0.9em;
-      padding-left: 0.8rem;
+      /* padding-left: 0.8rem; */
     }
     
     #filters-footer i {
@@ -397,14 +397,15 @@ textarea {
      aside section Most pop
      ====================== */  
 
-     .main-wrapper {
+     #main-wrapper {
        margin-top: 2.5rem;
        /* border-top: 1px solid blue; */
        width: auto;
      }
 
      #most-popular {
-      border: 1px solid green;
+      /* border: 1px solid green; */
+      padding-top: 0.8rem;
       padding-bottom: 0.5rem;
       background-color: var(--reservia-darkgray);
       /* height: auto; */
@@ -510,21 +511,23 @@ textarea {
         font-size: 0.9rem;
         margin-bottom: 2.5rem;
       }
-
     }
 
   /* ======================
      Section accommodations
      ====================== */ 
-    #accommodations {
+    main {
+      /* border: 1px solid red; */
       margin-top: 2.5rem;
-      border: 1px solid green;
+      /* padding-top: 0.8rem; */
     }
-    /* #accommodations a {
-      text-decoration: none;
-    } */
+    #accommodations {
+      /* border: 1px solid blue; */
+      padding-top: 0.8rem;
+      /* margin-top: 2.5rem; */
+    }
     #accommodations header {
-      /* margin-top: 2rem; */
+      margin-top: 2rem;
       margin-bottom: 1.79rem;
     }
     #accommodations h2 {
@@ -599,8 +602,8 @@ textarea {
      ====================== */ 
     #activities {
       margin-top: 3.14rem;
-      margin-bottom: 2rem;
-      border: 1px solid green;
+      /* margin-bottom: 2rem; */
+      /* border: 1px solid green; */
     }
     #activities h2 {
       margin-top: 0;
@@ -656,6 +659,7 @@ textarea {
     footer {
       border: 1px solid red;
       background-color: var(--reservia-gray);
+      margin-top: 2rem;
       /* padding: 3.571rem 1.43rem; */
     }
     .footer-wrapper {
@@ -832,9 +836,10 @@ textarea {
          ====================== */
         #accommodations {
           background-color: var(--reservia-darkgray);
+          padding-bottom: 2rem;
         }
         #accommodations header {
-          margin-top: 2rem;
+          /* padding-top: 2rem; */
         }
         #accommodations .articles-wrapper {
           display: grid;
@@ -855,7 +860,87 @@ textarea {
           background-color: white;
         }
     }
+    /* ======================
+       Desktop 1440px
+       ====================== */
+      @media only screen and (min-width: 1440px) {
+        /* ======================
+          Max lenght for all sections
+          ====================== */
+          #main-nav-test,
+          #title,
+          #search-section,
+          #filters,
+          #main-wrapper,
+          #activities,
+          .footer-wrapper {
+            /* border: 1px solid green; */
+            max-width: 1440px;
+            margin: 0 auto;
+          }
 
+        /* ======================
+          Margins & paddings
+          ====================== */   
+          .padleft,
+          .padright,
+          .search-wrapper {
+            padding: 0;
+          }
+
+         #search-section {
+           margin-top: 2.71rem;
+         }
+         #filters {
+           margin-top: 1.5rem;
+         }
+         #main-wrapper,
+         #activities {
+           margin-top: 2.5rem;
+         }
+         #most-popular header,
+         #accommodations header,
+         #accommodations > p {
+           padding-left: 2.71rem;
+         }
+         .footer-wrapper {
+           margin-top: 3.5rem;
+         }
+
+        /* ======================
+          activities section
+          ====================== */ 
+          .activities-wrapper {
+            border: 1px solid brown;
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: repeat(4, auto);
+            grid-template-rows: auto;
+            justify-items: stretch;
+            grid-row-gap : 3rem;
+          }
+          #activities .activities-wrapper article {
+            max-width: 22.57rem;
+            margin: 0;
+          }
+
+          #activities > div > article:nth-child(1)
+           {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            align-self: center;
+          }
+
+          #activities > div > article:nth-child(3) {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 2;
+          }
+      
+       }
 
 
 
