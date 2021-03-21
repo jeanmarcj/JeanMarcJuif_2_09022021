@@ -657,7 +657,7 @@ textarea {
      Footer
      ====================== */ 
     footer {
-      border: 1px solid red;
+      /* border: 1px solid red; */
       background-color: var(--reservia-gray);
       margin-top: 2rem;
       /* padding: 3.571rem 1.43rem; */
@@ -725,6 +725,7 @@ textarea {
           max-width: 17.5rem;
           /* align-self: center; */
         }
+
       /* ======================
          activities
          ====================== */
@@ -739,6 +740,7 @@ textarea {
           margin-bottom: 1.786rem;
           /* margin-right: 2.1rem; */
         }
+
       /* ======================
          footer
          ====================== */  
@@ -764,10 +766,6 @@ textarea {
         #main-nav-test {
           /* border: 1px solid green; */
           flex-wrap: nowrap;
-        }
-        #main-nav-test img {
-          /* border: 1px solid pink; */
-          /* flex-grow: 2; */
         }
         #main-nav-test nav {
           /* border: 1px solid brown; */
@@ -838,9 +836,6 @@ textarea {
           background-color: var(--reservia-darkgray);
           padding-bottom: 2rem;
         }
-        #accommodations header {
-          /* padding-top: 2rem; */
-        }
         #accommodations .articles-wrapper {
           display: grid;
           grid-template-columns: repeat(3, auto);
@@ -850,11 +845,6 @@ textarea {
           /* border: 1px solid red; */
           /* justify-content: space-between; */
         }
-        #accommodations .articles-wrapper article {
-          /* border: 1px solid red; */
-          /* margin-right: 1rem; */
-        }
-
         #accommodations .articles-wrapper article .card-container {
           box-shadow: 2px 1px 10px black;
           background-color: white;
@@ -865,8 +855,8 @@ textarea {
        ====================== */
       @media only screen and (min-width: 1440px) {
         /* ======================
-          Max lenght for all sections
-          ====================== */
+           Max lenght for all sections
+           ====================== */
           #main-nav-test,
           #title,
           #search-section,
@@ -874,50 +864,74 @@ textarea {
           #main-wrapper,
           #activities,
           .footer-wrapper {
-            /* border: 1px solid green; */
+            border: 1px solid green;
             max-width: 1440px;
             margin: 0 auto;
           }
 
         /* ======================
-          Margins & paddings
-          ====================== */   
+           Margins & paddings
+           ====================== */   
           .padleft,
           .padright,
           .search-wrapper {
             padding: 0;
           }
-
-         #search-section {
-           margin-top: 2.71rem;
-         }
-         #filters {
-           margin-top: 1.5rem;
-         }
-         #main-wrapper,
-         #activities {
-           margin-top: 4.5rem;
-         }
-         #most-popular header,
-         #accommodations header,
-         #accommodations > p {
-           padding-left: 2.71rem;
-         }
-         #most-popular header {
-           padding-right: 2.71rem;
-         }
-         .footer-wrapper {
-           margin-top: 3.5rem;
-         }
+          #search-section {
+            margin-top: 2.71rem;
+          }
+          #filters {
+            margin-top: 1.5rem;
+          }
+          #main-wrapper,
+          #activities {
+            margin-top: 4.5rem;
+          }
+          #most-popular header,
+          #accommodations header,
+          #accommodations > p {
+            padding-left: 2.71rem;
+          }
+          #most-popular header {
+            padding-right: 2.71rem;
+          }
+          .footer-wrapper {
+            margin-top: 3.5rem;
+          }
+        /* ======================
+           main wrapper
+           ====================== */
+           #main-wrapper {
+             display: flex;
+             flex-direction: row-reverse;
+             justify-content: space-between;
+           }
+           #most-popular,
+           #accommodations {
+             /* border: 1px solid red; */
+             border-radius: 20px;
+           }
+           #most-popular .most-popular-wrapper {
+             /* border: 1px solid red; */
+             flex-flow: column wrap;
+           }
+           #most-popular .most-popular-wrapper article {
+             /* border: 1px solid green; */
+             width: 85%;
+             margin-bottom: 3.3rem;
+           }
+           main {
+             margin: 0;
+           }
 
         /* ======================
-          activities section
-          ====================== */ 
+           activities section
+           ====================== */ 
           #activities h2 {
             margin-bottom: 1.5rem;
           }
           .activities-wrapper {
-            border: 1px solid brown;
+            /* border: 1px solid brown; */
             display: grid;
             justify-content: space-between;
             grid-template-columns: repeat(4, auto);
@@ -929,13 +943,10 @@ textarea {
             max-width: 22.57rem;
             margin: 0;
           }
-
           #activities article .card-container {
             /* border: 1px solid green; */
-            box-shadow: 1px 1px 10px black;
-            
+            box-shadow: 1px 1px 10px black; 
           }
-
           #activities > div > article:nth-child(1){
             grid-column-start: 1;
             grid-column-end: 2;
@@ -944,13 +955,11 @@ textarea {
             align-self: start;
             /* height: 30.57rem; */
           }
-
           #activities > div > article:nth-child(2) {
             /* height: 16.36rem; */
             /* height: 65%; */
             align-self: start;
           }
-
           #activities > div > article:nth-child(3) {
             grid-column-start: 2;
             grid-column-end: 2;
@@ -960,53 +969,47 @@ textarea {
             /* height: 11.21rem; */
             /* height: 35%; */
           }
-
-          #activities > div > article:nth-child(4)
-          {
-           grid-column-start: 3;
-           grid-column-end: 4;
-           grid-row-start: 1;
-           grid-row-end: 3;
-           align-self: start;
-           /* height: 30.57rem; */
-         }
-
-         #activities > div > article:nth-child(5)
-         {
-          /* grid-column-start: 3;
-          grid-column-end: 4;
-          grid-row-start: 1;
-          grid-row-end: 3; */
-          align-self: start;
-          /* height: 31.79rem; */
-        }
-        #activities > div > article:nth-child(6)
-        {
-         /* grid-column-start: 3;
-         grid-column-end: 4;
-         grid-row-start: 1;
-         grid-row-end: 3; */
-         align-self: start;
-         margin-top: -6.2rem
-         /* height: 31.79rem; */
-       }
-
-         #activities > div > article:nth-child(1) .card-img,
-         #activities > div > article:nth-child(4) .card-img {
-           height: 27.3rem;
-         }
+          #activities > div > article:nth-child(4) {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            align-self: start;
+            /* height: 30.57rem; */
+          }
+          #activities > div > article:nth-child(5) {
+            /* grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3; */
+            align-self: start;
+            /* height: 31.79rem; */
+          }
+          #activities > div > article:nth-child(6) {
+            /* grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3; */
+            align-self: start;
+            margin-top: -6.2rem
+            /* height: 31.79rem; */
+          }
+          #activities > div > article:nth-child(1) .card-img,
+          #activities > div > article:nth-child(4) .card-img {
+            height: 27.3rem;
+          }
          #activities > div > article:nth-child(2) .card-img {
-          height: 12.93rem;
-        }
-        #activities > div > article:nth-child(3) .card-img {
-          height: 6.71rem;
-        }
-        #activities > div > article:nth-child(5) .card-img {
-          height: 6.71rem;
-        }
-        #activities > div > article:nth-child(6) .card-img {
-          height: 12.93rem;
-        }
+            height: 12.93rem;
+          }
+          #activities > div > article:nth-child(3) .card-img {
+            height: 6.71rem;
+          }
+          #activities > div > article:nth-child(5) .card-img {
+            height: 6.71rem;
+          }
+          #activities > div > article:nth-child(6) .card-img {
+            height: 12.93rem;
+          }
       
        }
 
