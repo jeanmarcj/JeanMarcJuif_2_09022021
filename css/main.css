@@ -903,6 +903,9 @@ textarea {
          #accommodations > p {
            padding-left: 2.71rem;
          }
+         #most-popular header {
+           padding-right: 2.71rem;
+         }
          .footer-wrapper {
            margin-top: 3.5rem;
          }
