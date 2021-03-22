@@ -445,7 +445,7 @@ textarea {
       /* margin: 0 auto 1.3rem auto; */
       max-width: 24.5rem;
       align-self: center;
-      box-shadow: 2px 1px 10px rgb(65, 64, 64);
+      box-shadow: 2px 1px 5px gray;
     }
 
     #most-popular .card-container {
@@ -628,6 +628,7 @@ textarea {
       border: 2px solid var(--reservia-gray);
       border-radius: 20px;
       /* box-shadow: 2px 1px 10px black; */
+      box-shadow: 2px 1px 3px lightgrey;
     }
     #activities .card-img {
       /* border: 2px solid pink; */
@@ -722,7 +723,7 @@ textarea {
         }
         #accommodations .articles-wrapper article {
           /* border: 1px solid red; */
-          max-width: 19.5rem;
+          max-width: 23.5rem;
           /* align-self: center; */
         }
 
@@ -840,14 +841,21 @@ textarea {
           display: grid;
           grid-template-columns: repeat(3, auto);
           grid-template-rows: auto;
-          column-gap: 8.5rem;
-          row-gap: 2.1rem;
+          column-gap: 2.5rem;
+          row-gap: 2.5rem;
           /* border: 1px solid red; */
           /* justify-content: space-between; */
         }
+        #accommodations .articles-wrapper article {
+          margin: 0;
+        }
         #accommodations .articles-wrapper article .card-container {
-          box-shadow: 2px 1px 10px black;
+          /* box-shadow: 2px 1px 10px black; */
+          box-shadow: 2px 1px 5px gray;
           background-color: white;
+        }
+        #accommodations > p {
+          margin-top: 3rem;
         }
     }
     /* ======================
@@ -883,10 +891,10 @@ textarea {
           #filters {
             margin-top: 1.5rem;
           }
-          #main-wrapper,
-          #activities {
-            margin-top: 4.5rem;
+          #main-wrapper {
+            margin-top: 2.5rem;
           }
+
           #most-popular header,
           #accommodations header,
           #accommodations > p {
@@ -914,15 +922,11 @@ textarea {
            }
            #accommodations .articles-wrapper {
              padding: 0 2.71rem;
-             column-gap: 5rem;
-             row-gap: 5rem;
+             column-gap: 4rem;
+             row-gap: 4rem;
            }
            #accommodations .articles-wrapper article {
-             margin: 0;
-             /* width: 17.5rem; */
-           }
-           #accommodations > p {
-             margin-top: 3rem;
+             max-width: 20rem;
            }
            #most-popular .most-popular-wrapper {
              /* border: 1px solid red; */
@@ -943,7 +947,10 @@ textarea {
         /* ======================
            activities section
            ====================== */ 
-          #activities h2 {
+           #activities {
+             margin-top: 3.5rem;
+           }
+           #activities h2 {
             margin-bottom: 1.5rem;
           }
           .activities-wrapper {
@@ -961,7 +968,7 @@ textarea {
           }
           #activities article .card-container {
             /* border: 1px solid green; */
-            box-shadow: 1px 1px 10px black; 
+            /* box-shadow: 1px 1px 10px black;  */
           }
           #activities > div > article:nth-child(1){
             grid-column-start: 1;
