@@ -535,13 +535,16 @@ textarea {
       margin-bottom: 0;
     }
     #accommodations .articles-wrapper {
+      display: -webkit-box;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
       flex-direction: column;
     }
 
     #accommodations .articles-wrapper article {
       /* border: 1px solid red; */
-      /* width: 95%; */
+      width: 95%;
       max-width: 28.14rem;
       margin-bottom: 2rem;
       align-self: center;
@@ -615,6 +618,7 @@ textarea {
       flex-direction: column;
     }
     .activities-wrapper article {
+      width: 95%;
       max-width: 23.71rem;
       cursor: pointer;
       /* border: 1px solid brown; */
@@ -665,11 +669,14 @@ textarea {
     }
     .footer-wrapper {
       /* border: 1px solid green; */
-      margin-top: 3.5rem;
+      margin-top: 1.5rem;
       padding-bottom: 1.5rem;
     }
     .footer-wrapper h2 {
       margin-top: 0;
+    }
+    footer div:first-of-type {
+      padding-top: 2rem;
     }
     footer div {
       /* border: 1px solid green; */
@@ -753,7 +760,11 @@ textarea {
         footer .footer-wrapper div {
           /* border: 1px solid black; */
           width: 100%;
-          margin-bottom: 0;
+          margin: 0;
+          padding: 0 1.5rem 0 0;
+        }
+        footer .footer-wrapper div:last-of-type {
+          padding: 0;
         }
 
      }
@@ -848,6 +859,7 @@ textarea {
         }
         #accommodations .articles-wrapper article {
           margin: 0;
+          min-width: 21.86rem;
         }
         #accommodations .articles-wrapper article .card-container {
           /* box-shadow: 2px 1px 10px black; */
@@ -856,6 +868,9 @@ textarea {
         }
         #accommodations > p {
           margin-top: 3rem;
+        }
+        footer .footer-wrapper div {
+          padding: 0;
         }
     }
     /* ======================
