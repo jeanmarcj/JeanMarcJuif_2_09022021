@@ -978,6 +978,7 @@ textarea {
           }
           #activities .activities-wrapper article {
             max-width: 22.57rem;
+            min-width: 22.57rem;
             margin: 0;
           }
           #activities article .card-container {
@@ -1050,9 +1051,16 @@ textarea {
         /* ======================
            footer
            ====================== */ 
-          .footer-wrapper {
+          footer {
+            height: 13.5rem;
+          }
+           .footer-wrapper {
             margin-top: 3.5rem;
             /* padding-bottom: 3.5rem; */
+          }
+          #about,
+          #products {
+            padding: 0;
           }
       
        }
