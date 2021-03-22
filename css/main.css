@@ -827,7 +827,7 @@ textarea {
          aside most popular
          ====================== */
         .most-popular-wrapper {
-          justify-content: space-around;
+          /* justify-content: space-between; */
         }
       /* ======================
          accommodations
