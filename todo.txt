@@ -21,6 +21,7 @@
 #7 Corriger la version firefox du site --> OK!
 #8 Passer au validateur html et css --> OK !
 #9 Purger le CSS et HTML
+#10 test sans le fichier CSS mais avec le lien CDN
 
 
 

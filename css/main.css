@@ -677,12 +677,13 @@ textarea {
       /* border: 1px solid red; */
       background-color: var(--reservia-gray);
       margin-top: 2rem;
+      height: 34.64rem;
       /* padding: 3.571rem 1.43rem; */
     }
     .footer-wrapper {
       /* border: 1px solid green; */
       margin-top: 1.5rem;
-      padding-bottom: 1.5rem;
+      /* padding-bottom: 1.5rem; */
     }
     .footer-wrapper h2 {
       margin-top: 0;
@@ -692,7 +693,7 @@ textarea {
     }
     footer div {
       /* border: 1px solid green; */
-      margin-bottom: 1.57rem;
+      /* margin-bottom: 1.57rem; */
     }
     #assistance {
       margin-bottom: 0;
@@ -772,7 +773,10 @@ textarea {
 
       /* ======================
          footer
-         ====================== */  
+         ====================== */
+         footer {
+           height : 17rem;
+         }  
         .footer-wrapper {
           /* border: 1px solid green; */
           display: flex;
