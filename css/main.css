@@ -686,8 +686,17 @@ textarea {
       margin-bottom: 0;
     }
     footer li {
-      margin-bottom: 0.85rem;
+      /* margin-bottom: 0.85rem; */
       font-size: 1.15rem;
+      height: 2.5rem;
+    }
+    footer li a {
+      display: inline-block;
+      height: 1.7rem;
+    }
+    footer li a:hover {
+      border-bottom: 1px solid var(--reservia-blue);
+      color: var(--reservia-blue);
     }
 
   /* ======================
