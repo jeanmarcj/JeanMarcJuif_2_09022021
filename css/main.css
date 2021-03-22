@@ -864,7 +864,7 @@ textarea {
           #main-wrapper,
           #activities,
           .footer-wrapper {
-            border: 1px solid green;
+            /* border: 1px solid green; */
             max-width: 1440px;
             margin: 0 auto;
           }
@@ -893,7 +893,8 @@ textarea {
             padding-left: 2.71rem;
           }
           #most-popular header {
-            padding-right: 2.71rem;
+            padding: 0 2rem 0 2rem;
+            /* padding-right: 2rem; */
           }
           .footer-wrapper {
             margin-top: 3.5rem;
@@ -918,7 +919,10 @@ textarea {
            #most-popular .most-popular-wrapper article {
              /* border: 1px solid green; */
              width: 85%;
-             margin-bottom: 3.3rem;
+             margin-bottom: 4.3rem;
+           }
+           #most-popular > div > article:nth-child(3) {
+             margin-bottom: 0;
            }
            main {
              margin: 0;
