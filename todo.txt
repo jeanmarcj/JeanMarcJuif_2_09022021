@@ -1,0 +1,47 @@
+******* TODO ************
+******* Aide Mémoire ****
+
+#1 corriger le contenu des baises alt="" ---> OK !
+#2 Déterminer le viewpoint --> OK !
+#3 Responsive design mobile first --> A revoir
+#4 La marge à gauche à déterminer ---> OK !
+#5 Rajouter des balises tittle ---> OK !
+#6 Convention de nommage des ID et classes --> OK !
+#7 Vérifier la balise <aside> --> OK !
+#8 Positionnement des images dans leur container ---> OK !
+
+------ Session du 16/03/2021 ------
+
+#1 Intégrer un reset CSS --> OK!
+#2 Corriger le responsive sur la version petite résolution --> OK !
+#3 Corriger la section de recherche (pas de outline mais border) --> OK!
+#4 Coder la bordure haute du menu dans les versions tablette et desktop --> OK!
+#5 Changer la résolution des images (effet de blur) --> OK!
+#6 Ajout d'un effet au survol des tags --> OK!
+#7 Corriger la version firefox du site --> OK!
+#8 Passer au validateur html et css --> OK !
+#9 Purger le CSS et HTML
+
+
+
+===========
+Tests
+
+Snippets :
+
+#nav-links {
+    display: flex;
+    list-type-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space around;
+}
+
+#nav-links a {
+    padding: ;
+    background-color: ;
+    color: white;
+    border-radius: 7px;
+    font-weight; bold;
+    border: 1px solid rgba(255,12,85,0.5)
+}
