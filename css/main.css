@@ -499,7 +499,7 @@ textarea {
 
     @media only screen and (max-width: 362px) {
       #most-popular .card-body {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 95%;
         padding-bottom: 0.3rem;
       }
