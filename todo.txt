@@ -23,9 +23,20 @@
 #9 Purger le CSS et HTML
 #10 test sans le fichier CSS mais avec le lien CDN --> OK!
 #11 Renommer les class sans 'test'
-#12 Préparation de la présntation (powerpoint)
+#12 Préparation de la présentation (powerpoint)
+#13 Corriger le padding sur le footer en desktop qui a disparu
+#14 Baisser le breakpoint pour le format Desktop car trop haut en 1440px (1200 1250 1300 ?)
+#15 Effet au survol de Afficher plus
 
-
+Pour la présentation :
+Balayer les critères du cachier des charges en une phrase,
+Capture d'écran de la validation w3C
+Captures d'écran de la structure HTML ou mise en page.
+Ne pas oublier :
+L'importance de l'indentation du code
+L'importance des commentaires (captures d'écran')
+L'importance du versionning (avec Git et Github) Captures d'écran (hébergement Giihub pages)
+L'importance du responsive design (Pourquoi le mobile first)
 
 
 ===========
