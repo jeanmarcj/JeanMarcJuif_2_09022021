@@ -13,15 +13,18 @@
 ------ Session du 16/03/2021 ------
 
 #1 Intégrer un reset CSS --> OK!
-#2 Corriger le responsive sur la version petite résolution --> OK !
+#2 Corriger le responsive sur la version petite résolution --> OK!
 #3 Corriger la section de recherche (pas de outline mais border) --> OK!
 #4 Coder la bordure haute du menu dans les versions tablette et desktop --> OK!
 #5 Changer la résolution des images (effet de blur) --> OK!
 #6 Ajout d'un effet au survol des tags --> OK!
 #7 Corriger la version firefox du site --> OK!
-#8 Passer au validateur html et css --> OK !
+#8 Passer au validateur html et css --> OK!
 #9 Purger le CSS et HTML
-#10 test sans le fichier CSS mais avec le lien CDN
+#10 test sans le fichier CSS mais avec le lien CDN --> OK!
+#11 Renommer les class sans 'test'
+#12 Préparation de la présntation (powerpoint)
+
 
 
 
