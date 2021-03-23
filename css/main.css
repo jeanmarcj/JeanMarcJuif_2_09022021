@@ -634,13 +634,13 @@ textarea {
       align-self: center;
     }
     #activities .card-container {
-      
-      /* min-height: 13.429rem; */
-      /* max-height: 13.429rem; */
       border: 2px solid var(--reservia-gray);
       border-radius: 20px;
       /* box-shadow: 2px 1px 10px black; */
       box-shadow: 2px 1px 3px lightgrey;
+    }
+    #activities .card-container:hover {
+      background-color: var(--reservia-lightblue);
     }
     #activities .card-img {
       /* border: 2px solid pink; */
@@ -807,8 +807,8 @@ textarea {
         #main-nav > a {
           /* border: 1px solid green; */
           align-self: center;
-          height: 2.5rem;
-          padding-top: 1.6rem;
+          height: 2.6rem;
+          padding-top: 2.7rem;
           order: 3;
         }
         #main-nav nav ul {
@@ -822,13 +822,12 @@ textarea {
         }
         #main-nav nav ul li a {
           /* border: 1px solid blue; */
-          /* padding-top: 1rem; */
           height: 2.5rem;
           width: 11.57rem;
           border-bottom-width: 0;
           border-top: 3px solid white;
           align-self: center;
-          padding-top: 1rem;
+          padding-top: 2rem;
           text-align: center;
         }
         #main-nav nav ul li a:hover {
@@ -1071,6 +1070,7 @@ textarea {
           }
           #search-section {
             margin-top: 1.6rem;
+            margin-bottom: 1.6rem;
           }
           #most-popular header,
           #accommodations header,
