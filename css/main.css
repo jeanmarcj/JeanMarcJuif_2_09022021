@@ -902,7 +902,7 @@ textarea {
           #main-wrapper,
           #activities,
           .footer-wrapper {
-            border: 1px solid green;
+            /* border: 1px solid green; */
             max-width: 1200px;
             margin: 0 auto;
           }
@@ -1006,7 +1006,7 @@ textarea {
             grid-column-end: 2;
             grid-row-start: 2;
             grid-row-end: 2;
-            margin-top: 1rem;
+            margin-top: 0.8rem;
           }
           #activities > div > article:nth-child(4) {
             grid-column-start: 3;
@@ -1026,7 +1026,7 @@ textarea {
             grid-column-end: 5;
             grid-row-start: 1;
             grid-row-end: 3; */
-            margin-top: -2.6rem;
+            margin-top: -2.5rem;
           }
           #activities > div > article:nth-child(1) .card-img,
           #activities > div > article:nth-child(4) .card-img {
@@ -1056,7 +1056,7 @@ textarea {
           #main-wrapper,
           #activities,
           .footer-wrapper {
-            /* border: 1px solid green; */
+            /* border: 1px solid red; */
             max-width: 1440px;
             margin: 0 auto;
           }
@@ -1116,8 +1116,11 @@ textarea {
           #activities .activities-wrapper article {
             width: 22.57rem;
           }
+          #activities > div > article:nth-child(3) {
+            margin-top: -0.3rem;
+          }
           #activities > div > article:nth-child(6) {
-            margin-top: -6.2rem
+            margin-top: -6.4rem
           }
           #activities > div > article:nth-child(1) .card-img,
           #activities > div > article:nth-child(4) .card-img {
