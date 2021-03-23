@@ -22,9 +22,9 @@
 #8 Passer au validateur html et css --> OK!
 #9 Purger le CSS et HTML
 #10 test sans le fichier CSS mais avec le lien CDN --> OK!
-#11 Renommer les class sans 'test'
+#11 Renommer les class sans 'test' --> OK!
 #12 Préparation de la présentation (powerpoint)
-#13 Corriger le padding sur le footer en desktop qui a disparu
+#13 Corriger le padding sur le footer en desktop qui a disparu --> OK!
 #14 Baisser le breakpoint pour le format Desktop car trop haut en 1440px (1200 1250 1300 ?)
 #15 Effet au survol de Afficher plus
 
