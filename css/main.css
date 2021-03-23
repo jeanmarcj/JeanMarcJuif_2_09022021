@@ -691,10 +691,6 @@ textarea {
     #about {
       padding-top: 2rem;
     }
-    footer div {
-      /* border: 1px solid green; */
-      /* margin-bottom: 1.57rem; */
-    }
     #assistance {
       margin-bottom: 0;
     }
@@ -1007,10 +1003,6 @@ textarea {
             max-width: 22.57rem;
             min-width: 22.57rem;
             margin: 0;
-          }
-          #activities article .card-container {
-            /* border: 1px solid green; */
-            /* box-shadow: 1px 1px 10px black;  */
           }
           #activities > div > article:nth-child(1){
             grid-column-start: 1;
