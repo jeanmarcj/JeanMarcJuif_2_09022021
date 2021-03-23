@@ -165,7 +165,7 @@ textarea {
      Nav menu
      ====================== */
 
-    #main-nav-test {
+    #main-nav {
       /* border: 1px solid green; */
       margin-top: 2.21rem;
       display: flex;
@@ -174,7 +174,7 @@ textarea {
       align-items: center;
     }
     
-    #main-nav-test img {
+    #main-nav img {
       /* border: 1px solid pink; */
       /* max-width: 12rem; */
       width: 6.42rem;
@@ -182,20 +182,20 @@ textarea {
       height: 3rem;
     }
 
-    #main-nav-test nav {
+    #main-nav nav {
       /* border: 1px solid brown; */
       width: 100vw;
       /* margin-top: 2rem; */
     }
 
-    #main-nav-test nav ul {
+    #main-nav nav ul {
       /* border: 1px solid green; */
       height: 2.5rem;
       display: flex;
       justify-content: space-around;
     }
 
-    #main-nav-test > a {
+    #main-nav > a {
       /* border: 1px solid green; */
       padding-top: 0.5rem;
       font-size: 1.1rem;
@@ -203,12 +203,12 @@ textarea {
       color: var(--reservia-blue);
     }
 
-    #main-nav-test nav ul li {
+    #main-nav nav ul li {
       text-align: center;
       width: 100%;
     }
 
-    #main-nav-test nav ul li a {
+    #main-nav nav ul li a {
       /* border: 1px solid blue; */
       font-size: 1.2rem;
       display: block;
@@ -217,7 +217,7 @@ textarea {
       /* text-decoration: none; */
     }
 
-    #main-nav-test nav ul li a:hover {
+    #main-nav nav ul li a:hover {
       border-bottom: 2px solid var(--reservia-blue);
       color: var(--reservia-blue);
     }
@@ -804,33 +804,33 @@ textarea {
     @media only screen and (min-width: 1024px) {
       
       /** Main menu **/
-        #main-nav-test {
+        #main-nav {
           /* border: 1px solid green; */
           flex-wrap: nowrap;
         }
-        #main-nav-test nav {
+        #main-nav nav {
           /* border: 1px solid brown; */
           width: 50%;
           flex-grow: 2;
           padding-right: 1rem;
         }
-        #main-nav-test > a {
+        #main-nav > a {
           /* border: 1px solid green; */
           align-self: center;
           height: 2.5rem;
           padding-top: 1.6rem;
           order: 3;
         }
-        #main-nav-test nav ul {
+        #main-nav nav ul {
           margin: 0;
           height: auto;
           justify-content: flex-end;
         }
-        #main-nav-test nav ul li {
+        #main-nav nav ul li {
           text-align: right;
           width: auto;
         }
-        #main-nav-test nav ul li a {
+        #main-nav nav ul li a {
           /* border: 1px solid blue; */
           /* padding-top: 1rem; */
           height: 2.5rem;
@@ -841,7 +841,7 @@ textarea {
           padding-top: 1rem;
           text-align: center;
         }
-        #main-nav-test nav ul li a:hover {
+        #main-nav nav ul li a:hover {
           border-bottom-width: 0;
           border-top: 3px solid var(--reservia-blue);
           text-decoration: none;
@@ -904,7 +904,7 @@ textarea {
         /* ======================
            Max lenght for all sections
            ====================== */
-          #main-nav-test,
+          #main-nav,
           #title,
           #search-section,
           #filters,
