@@ -405,7 +405,7 @@ textarea {
      #most-popular {
       padding-top: 0.8rem;
       padding-bottom: 0.5rem;
-      background-color: var(--reservia-darkgray);
+      background-color: var(--reservia-gray);
      }
 
      #most-popular header {
@@ -804,7 +804,7 @@ textarea {
          accommodations
          ====================== */
           main {
-            background-color: var(--reservia-darkgray);
+            background-color: var(--reservia-gray);
           }
           #accommodations {
             padding-bottom: 2rem;
