@@ -166,7 +166,6 @@ textarea {
      ====================== */
 
     #main-nav {
-      /* border: 1px solid green; */
       margin-top: 2.21rem;
       display: flex;
       justify-content: space-between;
@@ -175,21 +174,16 @@ textarea {
     }
     
     #main-nav img {
-      /* border: 1px solid pink; */
-      /* max-width: 12rem; */
       width: 6.42rem;
       min-width: 6.42rem;
       height: 3rem;
     }
 
     #main-nav nav {
-      /* border: 1px solid brown; */
       width: 100vw;
-      /* margin-top: 2rem; */
     }
 
     #main-nav nav ul {
-      /* border: 1px solid green; */
       height: 2.5rem;
       display: flex;
       justify-content: space-around;
@@ -227,8 +221,6 @@ textarea {
      ====================== */
 
     #title h1 {
-      /* border: 1px solid var(--reservia-blue); */
-      /* margin-top: 2.71rem; */
       font-size: 1.45rem;
       margin-bottom: 0.5rem;
     }
@@ -244,7 +236,6 @@ textarea {
      ====================== */
 
      #search-section {
-      /* border: 1px solid red; */
       margin-top: 2.71rem;
       height: 3.9rem;
       
@@ -324,7 +315,6 @@ textarea {
      ====================== */
 
     #filters {
-      /* border: 1px solid red; */
       margin-top: 1.5em;
     }
 
@@ -345,11 +335,9 @@ textarea {
 
     #tags div {
       display: flex;
-      /* width: auto; */
       height: 3.357rem;
       margin-bottom: 1em;
       margin-right: 0.8rem;
-      /* border: 1px solid green; */
     }
 
     .filter-icon,
@@ -379,7 +367,6 @@ textarea {
       margin-left: 1.8rem;
       padding-left: 2.3rem;
       padding-right: 1.1em;
-      /* position: relative; */
       z-index: 1;
       overflow: hidden;
     }
@@ -387,7 +374,6 @@ textarea {
     #filters-footer {
       display: flex;
       margin-top: 0.9em;
-      /* padding-left: 0.8rem; */
     }
     
     #filters-footer i {
@@ -413,22 +399,18 @@ textarea {
 
      #main-wrapper {
        margin-top: 2.5rem;
-       /* border-top: 1px solid blue; */
        width: auto;
      }
 
      #most-popular {
-      /* border: 1px solid green; */
       padding-top: 0.8rem;
       padding-bottom: 0.5rem;
       background-color: var(--reservia-darkgray);
-      /* height: auto; */
      }
 
      #most-popular header {
       margin-top: 2rem;
       margin-bottom: 1.79rem;
-      /* padding-right: 0; */
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -449,21 +431,18 @@ textarea {
     }
 
     #most-popular article {
-      /* border: 1px solid teal; */
       border-radius: 20px;
       height: 10.21rem; /* 144 px*/
       margin-bottom: 1.3rem;
       background-color: #fffeff;
       display: flex;
       width: 90%;
-      /* margin: 0 auto 1.3rem auto; */
       max-width: 24.5rem;
       align-self: center;
       box-shadow: 2px 1px 5px gray;
     }
 
     #most-popular .card-container {
-      /* border: 1px solid red; */
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -475,7 +454,6 @@ textarea {
     }
 
     #most-popular .card-img {
-      /* border: 4px solid red; */
       width: 40%;
       height: 100%;
     }
@@ -489,14 +467,10 @@ textarea {
     #most-popular .card-body {
       width: 55%;
       height: 100%;
-      /* margin-top: auto; */
-      /* margin-bottom: 1rem; */
       overflow: hidden;
-      /* border: 1px solid green; */
     }
 
     #most-popular .card-body h3 {
-      /* margin-right: 2rem; */
       font-size: 1.25rem;
       margin-top: 0.55rem;
       margin-bottom: 0;
@@ -513,7 +487,6 @@ textarea {
 
     @media only screen and (max-width: 362px) {
       #most-popular .card-body {
-        /* border: 1px solid red; */
         height: 95%;
         padding-bottom: 0.3rem;
       }
@@ -531,14 +504,11 @@ textarea {
      Section accommodations
      ====================== */ 
     main {
-      /* border: 1px solid red; */
       margin-top: 2.5rem;
-      /* padding-top: 0.8rem; */
     }
     #accommodations {
       /* border: 1px solid blue; */
       padding-top: 0.8rem;
-      /* margin-top: 2.5rem; */
     }
     #accommodations header {
       margin-top: 2rem;
@@ -556,14 +526,12 @@ textarea {
       flex-direction: column;
     }
     #accommodations .articles-wrapper article {
-      /* border: 1px solid red; */
       width: 95%;
       max-width: 28.14rem;
       margin-bottom: 2rem;
       align-self: center;
     }
     #accommodations .card-container {
-      /* margin-bottom: 2rem; */
       border: 2px solid var(--reservia-gray);
       border-radius: 20px;
       box-shadow: 2px 1px 10px var(--reservia-darkgray);
@@ -582,7 +550,6 @@ textarea {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      /* border: 1px solid blue; */
     }
     #accommodations .card-body {
       margin-left: 1.5rem;
@@ -613,15 +580,12 @@ textarea {
      ====================== */ 
     #activities {
       margin-top: 3.14rem;
-      /* margin-bottom: 2rem; */
-      /* border: 1px solid green; */
     }
     #activities h2 {
       margin-top: 0;
       margin-bottom: 2.357rem;
     }
     .activities-wrapper {
-      /* border: 1px solid brown; */
       display: flex;
       flex-direction: column;
     }
@@ -629,34 +593,28 @@ textarea {
       width: 95%;
       max-width: 23.71rem;
       cursor: pointer;
-      /* border: 1px solid brown; */
       margin-bottom: 1.786rem;
       align-self: center;
     }
     #activities .card-container {
       border: 2px solid var(--reservia-gray);
       border-radius: 20px;
-      /* box-shadow: 2px 1px 10px black; */
       box-shadow: 2px 1px 3px lightgrey;
     }
     #activities .card-container:hover {
       background-color: var(--reservia-lightblue);
     }
     #activities .card-img {
-      /* border: 2px solid pink; */
       width: 100%;
       height: 9.214rem;
       height: 9.214rem;
-      /* margin: auto; */
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
       overflow: hidden;
-      /* position: relative; */
     }
     #activities .card-img img {
       width: 100%;
       height: 100%;
-      /* position: absolute; */
       object-fit: cover;
     }
     #activities .card-footer h3 {
@@ -668,16 +626,12 @@ textarea {
      Footer
      ====================== */ 
     footer {
-      /* border: 1px solid red; */
       background-color: var(--reservia-gray);
       margin-top: 2rem;
       height: 34.64rem;
-      /* padding: 3.571rem 1.43rem; */
     }
     .footer-wrapper {
-      /* border: 1px solid green; */
       margin-top: 1.5rem;
-      /* padding-bottom: 1.5rem; */
     }
     .footer-wrapper h2 {
       margin-top: 0;
@@ -734,31 +688,25 @@ textarea {
          accommodations
          ====================== */
         #accommodations .articles-wrapper {
-          /* border: 1px solid red; */
           padding: 0 1.43rem 0 1.43rem;
           flex-direction: row;
           flex-wrap: wrap;
           justify-content: space-around;
         }
         #accommodations .articles-wrapper article {
-          /* border: 1px solid red; */
           max-width: 23.5rem;
-          /* align-self: center; */
         }
 
       /* ======================
          activities
          ====================== */
         .activities-wrapper {
-          /* border: 1px solid brown; */
           flex-direction: row;
           flex-wrap: wrap;
           justify-content: space-around;
         }
         .activities-wrapper article {
-          /* border: 1px solid brown; */
           margin-bottom: 1.786rem;
-          /* margin-right: 2.1rem; */
         }
 
       /* ======================
@@ -768,13 +716,11 @@ textarea {
            height : 17rem;
          }  
         .footer-wrapper {
-          /* border: 1px solid green; */
           display: flex;
           justify-content: center;
           padding-top: 2.5rem;
         }
         footer .footer-wrapper div {
-          /* border: 1px solid black; */
           width: 100%;
           margin: 0;
           padding: 0 1.5rem 0 0;
@@ -793,19 +739,16 @@ textarea {
 
     @media only screen and (min-width: 1024px) {
       
-      /** Main menu **/
+      /** Nav menu **/
         #main-nav {
-          /* border: 1px solid green; */
           flex-wrap: nowrap;
         }
         #main-nav nav {
-          /* border: 1px solid brown; */
           width: 50%;
           flex-grow: 2;
           padding-right: 1rem;
         }
         #main-nav > a {
-          /* border: 1px solid green; */
           align-self: center;
           height: 2.6rem;
           padding-top: 2.7rem;
@@ -872,15 +815,12 @@ textarea {
             grid-template-rows: auto;
             column-gap: 2.5rem;
             row-gap: 2.5rem;
-            /* border: 1px solid red; */
-            /* justify-content: space-between; */
           }
           #accommodations .articles-wrapper article {
             margin: 0;
             min-width: 21.86rem;
           }
           #accommodations .articles-wrapper article .card-container {
-            /* box-shadow: 2px 1px 10px black; */
             box-shadow: 2px 1px 5px gray;
             background-color: white;
           }
@@ -901,7 +841,6 @@ textarea {
           #main-wrapper,
           #activities,
           .footer-wrapper {
-            /* border: 1px solid green; */
             max-width: 1200px;
             margin: 0 auto;
           }
@@ -939,7 +878,6 @@ textarea {
           }
           main,
           #most-popular {
-            /* border: 1px solid red; */
             border-radius: 20px;
           }
           #main-wrapper {
@@ -961,7 +899,6 @@ textarea {
             padding: 0;
           }
           #most-popular .most-popular-wrapper {
-            /* border: 1px solid red; */
             flex-flow: column wrap;
           }
           #most-popular .most-popular-wrapper article {
@@ -977,7 +914,6 @@ textarea {
             margin-bottom: 1.5rem;
           }
           .activities-wrapper {
-            /* border: 1px solid brown; */
             padding: 0;
             display: grid;
             justify-content: space-between;
@@ -1012,13 +948,8 @@ textarea {
             grid-column-end: 4;
             grid-row-start: 1;
             grid-row-end: 3;
-            /* height: 30.57rem; */
           }
           #activities > div > article:nth-child(6) {
-            /* grid-column-start: 4;
-            grid-column-end: 5;
-            grid-row-start: 1;
-            grid-row-end: 3; */
             margin-top: -2.5rem;
           }
           #activities > div > article:nth-child(1) .card-img,
@@ -1049,7 +980,6 @@ textarea {
           #main-wrapper,
           #activities,
           .footer-wrapper {
-            /* border: 1px solid red; */
             max-width: 1440px;
             margin: 0 auto;
           }
@@ -1073,7 +1003,6 @@ textarea {
           }
           #most-popular header {
             padding: 0 2rem 0 2rem;
-            /* padding-right: 2rem; */
           }
         /* ======================
            main wrapper
@@ -1094,7 +1023,6 @@ textarea {
             max-width: 20rem;
            }
            #most-popular .most-popular-wrapper article {
-             /* border: 1px solid green; */
              width: 85%;
            }
 
