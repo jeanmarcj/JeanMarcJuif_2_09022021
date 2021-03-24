@@ -25,13 +25,15 @@
 #11 Renommer les class sans 'test' --> OK!
 #12 Corriger le padding sur le footer en desktop qui a disparu --> OK!
 #13 Effet au survol de Afficher plus --> OK!
-#14 Baisser le breakpoint pour le format Desktop car trop haut en 1440px (1200px cf Boostrap)
+#14 Baisser le breakpoint pour le format Desktop car trop haut en 1440px (1200px cf Boostrap) --> OK!
+
 x-Small <576px
 Small >576px
 Medium >768px
 Large >992px (1024px pour chrome)
 Extra large 1200px
 Extra Extra large >1400px
+
 #15 Préparation de la présentation (powerpoint)
 
 Pour la présentation :

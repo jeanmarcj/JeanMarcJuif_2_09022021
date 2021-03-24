@@ -1014,12 +1014,6 @@ textarea {
             grid-row-end: 3;
             /* height: 30.57rem; */
           }
-          #activities > div > article:nth-child(5) {
-            /* grid-column-start: 4;
-            grid-column-end: 5;
-            grid-row-start: 1;
-            grid-row-end: 3; */
-          }
           #activities > div > article:nth-child(6) {
             /* grid-column-start: 4;
             grid-column-end: 5;
