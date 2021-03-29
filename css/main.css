@@ -395,7 +395,7 @@ textarea {
         width: 90%;
         max-width: 24.5rem;
         align-self: center;
-        box-shadow: 2px 1px 5px gray;
+        box-shadow: 2px 1px 5px var(--reservia-darkgray);
       }
       #most-popular .card-container {
         display: flex;
